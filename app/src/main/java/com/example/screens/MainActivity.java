@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                     String age = ageEdit.getText().toString();
 
                     intent.putExtra("name", name); // Optional
-                    intent.putExtra("number", age); // Optional
+                    intent.putExtra("age", age); // Optional
                     startActivity(intent);
             }
         });
