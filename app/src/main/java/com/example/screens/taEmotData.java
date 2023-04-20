@@ -15,14 +15,15 @@ public class taEmotData extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             String name = extras.getString("name");
-            int number = extras.getInt("age");
+            String age = extras.getString("age");
             // Do something with the name and number
 
             TextView nameView = findViewById(R.id.textViewNamn);
             nameView.setText(name);
 
             TextView ageView = findViewById(R.id.textViewAge);
-            ageView.setText(String.valueOf());
+            ageView.setText(age);
+
         }
     }
 }
